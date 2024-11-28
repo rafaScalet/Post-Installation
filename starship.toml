@@ -1,0 +1,61 @@
+# Configurations for all usages
+[username]
+style_user = "red bold"
+style_root = "red bold"
+format = "[$user]($style) in "
+disabled = false
+show_always = true
+
+[character]
+success_symbol = '[➜](bold green) '
+error_symbol = '[✗](bold red) '
+
+[directory]
+format = "[$read_only]($read_only_style)[󰉋 $path]($style) "
+read_only = " "
+read_only_style = "bold cyan"
+truncation_length = 1
+style = "bold italic cyan"
+
+# Dev configurations
+[package]
+format = 'is [$symbol $version]($style) '
+version_format = "${raw}"
+style ="yellow bold"
+symbol = "󰏗"
+
+# languages and technologies configurations
+[nodejs]
+format = 'via [$symbol $version]($style) '
+version_format = "${raw}"
+style ="green bold"
+symbol = ""
+
+[java]
+format = 'via [$symbol $version]($style) '
+version_format = "${raw}"
+style ="bright-red bold"
+symbol = ""
+
+[php]
+format = 'via [$symbol $version]($style) '
+version_format = "${raw}"
+style ="bright-blue bold"
+symbol = ""
+
+[python]
+format = 'via [$symbol $version]($style) '
+version_format = "${raw}"
+style ="blue bold"
+symbol = ""
+
+[dotnet]
+format = 'via [$symbol $version]($style) '
+version_format = "${raw}"
+style = "purple bold"
+symbol = ""
+
+# git
+[git_branch]
+symbol = " "
+style = "bright-purple bold"
