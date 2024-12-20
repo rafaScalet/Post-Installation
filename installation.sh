@@ -2,4 +2,4 @@
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install nala docker.io docker-compose fish code neofetch tldr git curl flatpak tree
+sudo apt install nala docker.io fish code neofetch tldr flatpak tree fzf

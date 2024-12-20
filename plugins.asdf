@@ -5,6 +5,7 @@ github-cli                   https://github.com/bartlomiejdanek/asdf-github-cli.
 httpie-go                    https://github.com/abatilo/asdf-httpie-go.git
 java                         https://github.com/halcyon/asdf-java.git
 lazydocker                   https://github.com/comdotlinux/asdf-lazydocker.git
+lazygit                      https://github.com/nklmilojevic/asdf-lazygit.git
 maven                        https://github.com/halcyon/asdf-maven.git
 mongosh                      https://github.com/itspngu/asdf-mongosh.git
 neovim                       https://github.com/richin13/asdf-neovim.git
